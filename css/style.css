@@ -110,3 +110,8 @@ canvas {
 .text p {
   font-size: 16px;
 }
+.frame:nth-child(1) {
+    background-image: url('../IMG-20251231-WA0014.jpg') !important;
+    background-size: cover;
+    background-position: center;
+}
