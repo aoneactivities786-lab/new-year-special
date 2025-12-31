@@ -1,79 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heart</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #ff0000; /* Pure Red Background */
-            flex-direction: column;
-            overflow: hidden;
-        }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>untoldcoding</title>
+    <link rel="stylesheet" href="css/heart.css" />
+  </head>
+  <body>
+    <h1 class="main-quote">You are the pulse of my heart</h1>
+    <div class="heart" id="heart">
+      <span>You</span>
+    </div>
 
-        .text-top {
-            color: #000000; /* Black Text */
-            font-size: 22px;
-            margin-bottom: 40px;
-            font-weight: bold;
-            font-family: 'Arial', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-
-        /* Bada Black Heart */
-        .heart {
-            position: relative;
-            width: 180px; 
-            height: 180px;
-            background-color: #000000; /* Black Heart */
-            transform: rotate(-45deg);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            /* Real Heartbeat Animation */
-            animation: realHeartbeat 1.3s ease-in-out infinite; 
-            box-shadow: 0 0 50px rgba(0,0,0,0.4);
-        }
-
-        .heart::before,
-        .heart::after {
-            content: "";
-            position: absolute;
-            width: 180px;
-            height: 180px;
-            background-color: #000000;
-            border-radius: 50%;
-        }
-
-        .heart::before {
-            top: -90px;
-            left: 0;
-        }
-
-        .heart::after {
-            left: 90px;
-            top: 0;
-        }
-
-        /* "you" ka stylish font */
-        .heart-text {
-            color: #ff0000; /* Inside text Red */
-            font-size: 55px; 
-            transform: rotate(45deg); 
-            z-index: 10;
-            font-family: 'Brush Script MT', cursive; 
-        }
-
-        /* Asli Heartbeat Matching Animation (Lubb-Dubb) */
-        @keyframes realHeartbeat {
-            0% { transform: rotate(-45deg) scale(1); }
-            10% { transform: rotate(-45deg) scale(1.2); } /* Pehli dharkan (Lubb) */
-            20% { transform: rotate(-45deg) scale(1.1); }
-            30% { transform: rotate(-45deg) scale(1.3); } /*
+    <button><a href="index.html">Back</a></button>
+  </body>
+</html>
